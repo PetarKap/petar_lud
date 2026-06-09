@@ -63,6 +63,16 @@ namespace Projekt_AzilŽivotnije.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Izrezak {
+            get {
+                object obj = ResourceManager.GetObject("Izrezak", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Snimka_zaslona_2026_02_09_125738 {
             get {
                 object obj = ResourceManager.GetObject("Snimka zaslona 2026-02-09 125738", resourceCulture);
