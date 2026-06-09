@@ -19,7 +19,7 @@ namespace Projekt_AzilŽivotnije
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "admin" && textBox2.Text == "azil123")
+            if (textBox1.Text == "Lori" && textBox2.Text == "2020")
             {
                 this.Hide();
                 Form f = new frm_Gl_Izbornk();
@@ -29,8 +29,13 @@ namespace Projekt_AzilŽivotnije
             }
             else
             {
-                MessageBox.Show("Neispravno korisničko ime ili lozinka. Pokušajte ponovo.");
+                MessageBox.Show("Neispravno korisničko ime ili lozinka");
             }
+        }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
